@@ -1,0 +1,42 @@
+body #game {
+    display: flex;
+}
+
+.control-panel {
+
+}
+
+.shop-item.button {
+    width: 200px;
+    height: 75px;
+    background: #FFFFFF;
+    display: flex;
+    color: rgb(48, 50, 47);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s;
+    margin: 10px;
+}
+
+.shop-item.button .img {
+    width: 75px;
+    height: 100%;
+}
+
+.shop-item.button .description {
+    width: 125px;
+    font-size: 15px;
+}
+
+.shop-item.button:hover {
+    background: #02A128;
+    box-shadow: -2px 3px 20px black;
+    transform: scale(1.01, 1.01);
+    color: #106524;
+    z-index: 10;
+    margin: 12px;
+}
+
+.shop-item.button:hover ~ .description {
+    font-size: 15px;
+}

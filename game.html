@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game">
+    <canvas id="canvas" width="1000" tabindex="0" height="600" tabindex="0">
+        Canvas is not supported by your browser
+    </canvas>
+
+    <div class="control-panel">
+        <div class="shop-item button" onclick="gameShopInterface.buyMaxHelpers()">
+            <div class="img">
+            </div>
+            <div class="description">
+                <p>Buy more bullets for helpers</p>
+            </div>
+        </div>
+        <div class="shop-item button">
+            <div class="img">
+            </div>
+            <div class="description">
+                <p>Buy more bullets for helpers</p>
+            </div>
+        </div>
+        <div class="shop-item button">
+            <div class="img">
+            </div>
+            <div class="description">
+                <p>Buy more bullets for helpers</p>
+            </div>
+        </div>
+        <div class="shop-item button">
+            <div class="img">
+            </div>
+            <div class="description">
+                <p>Buy more bullets for helpers</p>
+            </div>
+        </div>
+        <div class="shop-item button">
+            <div class="img">
+            </div>
+            <div class="description">
+                <p>Buy more bullets for helpers</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/geometry.js"></script>
+<script src="scripts/mobs/Bullet.js"></script>
+<script src="scripts/mobs/Enemy.js"></script>
+<script src="scripts/mobs/Helper.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
